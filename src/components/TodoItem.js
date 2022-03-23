@@ -16,9 +16,9 @@ function TodoItem(props){
             >
                 †
             </span>
-            <a className={`my-description ${props.completed && 'my-description--completed'} `}>
+            <span className={`my-description ${props.completed && 'my-description--completed'} `}>
                 {props.description}
-            </a>
+            </span>
         </li>
     )
 }

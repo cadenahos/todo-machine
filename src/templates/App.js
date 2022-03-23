@@ -1,7 +1,7 @@
 import '../styles/App.css';
 import 'bootstrap/dist/css/bootstrap.css';
-import React, { useContext } from "react";
-import { TodoProvider, TodoContext } from '../context';
+import React from "react";
+import { TodoProvider } from '../context';
 import Home from './home';
 
 
