@@ -1,0 +1,20 @@
+ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.todo-container{
+  margin: 20px;
+  background-color: salmon;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 1px 5px teal;
+  max-width: 330px;
+  margin: 20px auto;
+}
+
+.foo-button{
+  position: fixed;
+  left: 48%;
+}

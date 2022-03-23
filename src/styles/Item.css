@@ -1,0 +1,37 @@
+.item{
+    background-color: sandybrown;
+    border-radius: 5px;
+    border: 1px solid teal;
+    margin: 7px 0;
+    padding: 12px;
+    height: 50px;
+}
+.item-close {
+    background: teal;
+    font-size: 8px;
+    padding: 5px 8px;
+    /* width: 15px; */
+    /* height: 15px; */
+    border-radius: 50%;
+    right: -100%;
+    top: -89%;
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+}
+.my-check{
+    margin-right: 18px;
+    color: darkmagenta;
+}
+
+.my-check--active{
+    color: green;
+}
+
+.my-description{
+    text-decoration: none;
+    color: darkmagenta;
+}
+.my-description--completed{
+    text-decoration: line-through;
+}
