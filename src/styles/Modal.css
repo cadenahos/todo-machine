@@ -1,0 +1,38 @@
+.ModalBackground{
+    background: rgb(146, 145, 145, .8);
+    position: fixed;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.ModalContainer{
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px black solid ;
+    width: 260px;
+    
+}
+
+.ModalHeader{
+    background:  rgba(54, 54, 54, 0.2);
+    padding: 30px;
+}
+
+.ModalClose{
+    cursor: pointer;
+    position: relative;
+    top: -8%;
+    right: -91%;
+    background: black;
+    padding: 15px;
+    border-radius: 21%;
+}
+.ModalBody{
+    padding: 30px;
+}

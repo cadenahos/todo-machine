@@ -4,6 +4,7 @@ import {TodoCounter} from "../components/TodoCounter";
 import {TodoSearch} from "../components/TodoSearch";
 import {TodoList} from "../containers/TodoList";
 import { TodoItem } from "../components/TodoItem";
+import Modal from '../containers/Modal';
 import Button from "react-bootstrap/Button";
 
 const Home = () => {
@@ -12,7 +13,9 @@ const Home = () => {
         loading, 
         searchedTodos, 
         completeTodo, 
-        deleteTodo
+        deleteTodo,
+        openModal,
+        setOpenModal,
     }  = useContext(TodoContext);
     return (
         <React.Fragment>
@@ -36,10 +39,18 @@ const Home = () => {
                 <Button 
                 variant="primary" 
                 className="foo-button"
+                onClick={()=> setOpenModal(true)}
                 >
                 +
                 </Button>
             </div>
+            {!!openModal && (
+                <Modal
+                    
+                >
+                    
+                </Modal>
+            )}
         </React.Fragment>
     );
 };
