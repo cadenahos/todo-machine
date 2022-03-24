@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/cadenahos/todo-machine/static/css/main.836f2de8.css",
-    "main.js": "/cadenahos/todo-machine/static/js/main.6b2e3ef2.js",
-    "index.html": "/cadenahos/todo-machine/index.html",
-    "main.836f2de8.css.map": "/cadenahos/todo-machine/static/css/main.836f2de8.css.map",
-    "main.6b2e3ef2.js.map": "/cadenahos/todo-machine/static/js/main.6b2e3ef2.js.map"
+    "main.css": "/todo-machine/static/css/main.836f2de8.css",
+    "main.js": "/todo-machine/static/js/main.6b2e3ef2.js",
+    "index.html": "/todo-machine/index.html",
+    "main.836f2de8.css.map": "/todo-machine/static/css/main.836f2de8.css.map",
+    "main.6b2e3ef2.js.map": "/todo-machine/static/js/main.6b2e3ef2.js.map"
   },
   "entrypoints": [
     "static/css/main.836f2de8.css",
